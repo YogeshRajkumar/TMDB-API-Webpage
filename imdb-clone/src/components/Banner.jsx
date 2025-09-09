@@ -3,13 +3,13 @@ import React from "react";
 function Banner() {
   return (
     <div
-      className="h-[70vh] md:h-[75vh] bg-cover bg-center flex items-end"
+      className="h-[70vh] md:h-[50vh] bg-cover bg-fixed bg-center flex items-end"
       style={{
-        backgroundImage: `url(https://static1.cbrimages.com/wordpress/wp-content/uploads/2024/04/the-amazing-spider-man-movie.jpg)`,
+        backgroundImage: `url(https://www.thecordcutterlife.com/wp-content/uploads/2019/09/imdb-tv.jpg)`,
       }}
     >
       <div className="text-white text-xl w-full text-center bg-gray-900/60 p-2">
-        The Amazing Spider-man
+        The Movie Database
       </div>
     </div>
   );
