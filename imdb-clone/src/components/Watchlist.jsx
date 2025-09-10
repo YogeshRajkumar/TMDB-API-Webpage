@@ -146,3 +146,4 @@ function Watchlist({ watchlist, setWatchlist, handleRemoveFromWatchlist }) {
 }
 
 export default Watchlist;
+https://github.com/YogeshRajkumar/TMDB-Movie-API
