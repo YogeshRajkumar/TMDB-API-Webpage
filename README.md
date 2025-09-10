@@ -1,93 +1,85 @@
-# 🎬 TMDB Movie API App
+# TMDB API Website 🎬
 
-A responsive **Movie Search and Watchlist App** built with **React, Vite, TailwindCSS, and TMDB API**.  
-This project allows users to **search movies, view details, and maintain a personal watchlist** — similar to IMDb.
+A responsive movie discovery web application built using **React** and the **TMDB (The Movie Database) API**.  
+This app allows users to explore popular, trending, and top-rated movies, search for films, and view detailed information.
 
 ---
 
-## ✨ Features
-- 🔍 Search Movies using the TMDB API  
-- 🎞️ Browse Popular Movies on the homepage banner  
-- ⭐ Add / Remove Movies from a personal Watchlist  
-- 📱 Responsive UI (Desktop + Mobile)  
-- ⚡ Built with Vite + React + Tailwind CSS for speed and modern styling  
+## 🚀 Features
+- 🔍 Search movies by title  
+- 🎥 Browse popular, trending, and top-rated movies  
+- 📄 View detailed movie information (overview, rating, release date, etc.)  
+- ⭐ Add movies to favorites/watchlist (optional feature)  
+- 📱 Fully responsive design for desktop & mobile  
 
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend:** React, Vite, TailwindCSS  
-- **API:** [TMDB API](https://developers.themoviedb.org/3)  
-- **Icons:** React Icons  
-- **Version Control:** Git + GitHub  
+- **Frontend:** React + Vite  
+- **Styling:** Tailwind CSS  
+- **API:** TMDB API  
+- **Package Manager:** npm  
 
 ---
 
-## 🚀 Getting Started
+## ⚙️ Installation
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/YogeshRajkumar/TMDB-Movie-API-.git
-cd TMDB-Movie-API-
-```
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/YogeshRajkumar/TMDB-API-Website.git
+   cd TMDB-API-Website
+   ```
 
-### 2. Install dependencies
-```bash
-npm install
-```
+2. Install dependencies  
+   ```bash
+   npm install
+   ```
 
-### 3. Add your TMDB API Key
-Create a `.env` file in the root directory:
-```env
-VITE_TMDB_API_KEY=your_api_key_here
-```
+3. Create a `.env` file in the root directory and add your TMDB API key:  
+   ```env
+   VITE_TMDB_API_KEY=your_api_key_here
+   ```
 
-### 4. Run the app
-```bash
-npm run dev
-```
+4. Run the development server  
+   ```bash
+   npm run dev
+   ```
+
+5. Build for production  
+   ```bash
+   npm run build
+   ```
 
 ---
 
-## 📸 Screenshots
-(Add screenshots of your app UI here to showcase the design and features)
-
----
-
-## 📂 Folder Structure
+## 📂 Project Structure
 ```
-Movie-API/
-│── imdb-clone/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Banner.jsx
-│   │   │   ├── MovieCard.jsx
-│   │   │   ├── Movies.jsx
-│   │   │   ├── Navbar.jsx
-│   │   │   └── Watchlist.jsx
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   └── index.css
-│   ├── package.json
-│   ├── vite.config.js
-│   └── public/
+TMDB-API-Website/
+│── public/           # Static assets
+│── src/              # React source code
+│   ├── components/   # Reusable UI components
+│   ├── pages/        # Main pages (Home, Movie Details, etc.)
+│   ├── App.jsx       # Main App component
+│   ├── index.css     # Global styles
+│   └── main.jsx      # Entry point
 │── .gitignore
+│── package.json
+│── vite.config.js
 │── README.md
 ```
 
 ---
 
-## 📌 Future Improvements
-- 🔖 Add movie genres filter  
-- 🎬 Show trailers with YouTube embed  
-- 🌙 Add dark/light mode toggle  
-- 👤 User authentication for personal watchlist  
+## 🔑 API Reference
+- [TMDB API Docs](https://developer.themoviedb.org/reference/intro/getting-started)
 
 ---
 
-## 🙌 Acknowledgements
-- [TMDB API](https://www.themoviedb.org/documentation/api) for movie data  
-- [Vite](https://vitejs.dev/) and [TailwindCSS](https://tailwindcss.com/) for fast UI development  
+## 📸 Screenshots (Optional)
+_Add preview images of your app here_
 
 ---
 
-⭐ If you like this project, don’t forget to **star the repo**!
+## 👨‍💻 Author
+Developed by **Yogesh Rajkumar** 🚀  
+[LinkedIn](https://www.linkedin.com/in/yogesh-rajkumar-284377320/) | [GitHub](https://github.com/YogeshRajkumar)
